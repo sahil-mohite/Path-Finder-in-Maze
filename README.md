@@ -1,4 +1,8 @@
 # Path-Finder-in-Maze
+1. What’s the shortest route from our place to the nearest park?
+2. How do we find a way through a maze?
+3. Can we program a game character to find the exit avoiding enemies?
+
 The Path Finder in Maze module is designed to visualize complex maze generation and implement four different shortest path algorithms. 
 
 Finding a path from source to destination avoiding obstacles and minimizing the cost (time, distance, risks, fuel, path).
@@ -7,11 +11,7 @@ Pathfinding is closely related to the shortest path problem, within graph theory
 The Path Finder in Maze module is designed to visualize complex maze generation and implement four different shortest path algorithms. The module is developed using Python and utilizes the pygame package for graphical representation. The maze generation is accomplished through Randomized Prim's Algorithm, while the four shortest path algorithms implemented are Dijkstra's Algorithm, Breadth First Search, A* Algorithm, and Q-Learning.
 
 **Maze Generation**:
-The module employs Randomized Prim's Algorithm to generate mazes. This algorithm starts with a grid of cells and gradually builds walls between adjacent cells, forming a maze. The algorithm randomly selects a starting cell, marks it as part of the maze, and adds its neighboring walls to a list. It then proceeds by repeatedly choosing a random wall from the list, removing it, and marking the
-What’s the shortest route from our place to the nearest park?
-How do we find a way through a maze?
-Can we program a game character to find the exit avoiding enemies?
-cell on the opposite side as part of the maze. This process continues until all cells are included in the maze.
+The module employs Randomized Prim's Algorithm to generate mazes. This algorithm starts with a grid of cells and gradually builds walls between adjacent cells, forming a maze. The algorithm randomly selects a starting cell, marks it as part of the maze, and adds its neighboring walls to a list. It then proceeds by repeatedly choosing a random wall from the list, removing it, and marking the cell on the opposite side as part of the maze. This process continues until all cells are included in the maze.
 
 **Shortest Path Algorithms**:
 The Path Finder in Maze module implements four different shortest path algorithms:
